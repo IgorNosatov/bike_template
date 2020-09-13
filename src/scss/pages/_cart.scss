@@ -1,0 +1,31 @@
+.cart-title {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.cart-img {
+    width: 100px;
+}
+
+.cart-input {
+    margin-top: 30px;
+}
+
+@media (max-width: 1024px) {
+    .cart-wrapper {
+        max-width: 85% !important;
+    }
+    .cart__desktop {
+        display: none;
+    }
+    .cart-title {
+        font-size: 14px;
+        font-weight: bolder;
+    }
+}
+
+@media (min-width: 1025px) {
+    .cart__mobile {
+        display: none;
+    }
+}

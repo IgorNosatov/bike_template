@@ -1,0 +1,53 @@
+.nav-card-body {
+    background-color: $grey;
+}
+
+.card-header {
+    border-right: 1px solid $black;
+    border-left: 1px solid $black;
+}
+
+.shop-area__title {
+    margin-top: 200px;
+}
+
+.shop-area__title,
+.shop-area__subtitle,
+.shop-area__filters-title {
+    text-shadow: 2px 2px $black;
+}
+
+.price-filter {
+    .nav-item {
+        .nav-link {
+            color: $midnight;
+        }
+    }
+}
+
+.shop__filter {
+    border-bottom: 1px solid $midnight;
+    padding-left: 10px;
+}
+
+@media (min-width: 515px) {
+    .shop-area__bar-mobile {
+        display: none !important;
+    }
+    .shop-area__bar-desktop {
+        background-color: $green;
+        padding: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 514px) {
+    .shop-area__bar-desktop {
+        display: none!important;
+    }
+    .shop-area__bar-mobile {
+        background-color: $green;
+        padding: 5px;
+        margin-top: 10px;
+    }
+}

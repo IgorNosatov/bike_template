@@ -1,0 +1,12 @@
+.promo {
+    width: 100%;
+    background: url(../../img/banner.jpg);
+    background-size: cover !important;
+    color: $black;
+}
+
+.promo__banner {
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 250px 0;
+}

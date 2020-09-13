@@ -1,0 +1,48 @@
+{
+    "name": "nosatov_igor_gulp",
+    "version": "1.0.0",
+    "description": "gulp-pack",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Igor-Nosatov/gulp-pack.git"
+    },
+    "keywords": [
+        "gulp-pack-nosatov"
+    ],
+    "author": "Igor Nosatov",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Igor-Nosatov/gulp-pack/issues"
+    },
+    "homepage": "https://github.com/Igor-Nosatov/gulp-pack#readme",
+    "dependencies": {
+        "bootstrap": "^4.4.1",
+        "jquery": "^3.4.1",
+        "popper.js": "^1.16.0"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.12",
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-fonter": "^0.3.0",
+        "gulp-group-css-media-queries": "^1.2.2",
+        "gulp-html-replace": "^1.6.2",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-ttf2woff": "^1.1.1",
+        "gulp-ttf2woff2": "^3.0.0",
+        "gulp-uglify": "^3.0.2",
+        "gulp-webp": "^4.0.1",
+        "gulp-webp-css": "^1.1.0",
+        "gulp-webp-html": "^1.0.2"
+    }
+}

@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+button {
+    &:active,
+    &:focus {
+        border: none;
+        border-radius: 0rem!important;
+        outline: none !important;
+    }
+}
+
+.nav-link {
+    color: $white;
+    font-weight: bold;
+    &:hover {
+        color: $white;
+    }
+}
+
+tr {
+    background-color: $white !important;
+}

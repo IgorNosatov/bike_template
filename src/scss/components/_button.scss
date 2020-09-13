@@ -1,0 +1,67 @@
+.btn-main {
+    @include btn-main($green, $white, 16px);
+    font-weight: bolder;
+    text-shadow: 1px 1px $black;
+    &:hover {
+        box-shadow: 2px 4px $grey;
+        border: 1px solid $grey;
+    }
+}
+
+.btn-pagin {
+    @include btn-main($green, $black, 22px);
+    font-weight: bolder;
+    padding: 10px 20px;
+    text-shadow: 1px 1px $white;
+    transition: all 0.5s;
+    border: 1px solid $midnight;
+    &:hover {
+        color: $midnight !important;
+        border-radius: 0px;
+    }
+}
+
+.btn-form {
+    @include btn-main($green, $black, 16px);
+    font-weight: bolder;
+    text-shadow: 1px 1px $white;
+    padding: 10px 20px;
+    border-radius: 0px;
+}
+
+.btn-banner {
+    @include btn-main($orange, $white, 16px);
+    font-weight: bolder;
+    border: 1px solid $grey;
+    border-radius: 5px;
+    padding: 16px;
+    text-transform: uppercase;
+    &:hover {
+        color: $black;
+    }
+}
+
+.btn-card {
+    @include btn-main($green, $white, 14px);
+    padding: 8px;
+    font-weight: bolder;
+    border: 1px solid $grey;
+    border-radius: 5px;
+    outline: none;
+    &:hover {
+        color: $white;
+        box-shadow: 2px 4px $grey;
+        border: 1px solid $grey;
+        border-radius: 5px;
+    }
+}
+
+.btn-collapse {
+    @include btn-main(none, $black, 16px);
+    text-decoration: none;
+}
+
+.page-link {
+    @include btn-main($green, $white, 16px);
+    font-weight: bolder;
+}

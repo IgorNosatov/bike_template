@@ -1,0 +1,14 @@
+@mixin btn-main($background-color, $color, $font-size) {
+    background-color: $background-color;
+    color: $color;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: $font-size;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-decoration: none !important;
+    &:hover {
+        color: $black !important;
+    }
+}

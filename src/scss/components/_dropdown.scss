@@ -1,0 +1,8 @@
+.dropdown-toggle {
+    font-weight: bolder;
+    color: $white;
+    transition: all 0.5s;
+    &:hover {
+        text-shadow: 2px 2px $dark-white;
+    }
+}
